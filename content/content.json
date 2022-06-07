@@ -1,0 +1,241 @@
+{
+  "cards": [
+    {
+      "titleOfStory": "Početna",
+      "number": 1,
+      "stories": [
+        {
+          "tip": "",
+          "text": "Pričam ti priču!",
+          "image": {
+            "path": "images/Home.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          }
+        }
+      ]
+    },
+    {
+      "titleOfStory": "Tri praščića",
+      "number": 2,
+      "stories": [
+        {
+          "image": {
+            "path": "images/Tri_prascica_1.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Prvi praščić izgradio je sebi kuću od slame.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_0.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Tri_prascica_2.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Drugi praščić izgradio je svoju kuću od drveta.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_1.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Tri_prascica_3.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Treći praščić izgradio je čvrstu kuću od cigle.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_2.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Tri_prascica_4.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Vuk je otpuhao kuću od slame.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_3.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Tri_prascica_5.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Vuk je otpuhao i kuću od drveta.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_4.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Tri_prascica_6.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Kuću od cigle, vuk nije mogao otpuhati.",
+          "audioFile": [
+            {
+              "path": "audios/tri_prascica_5.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "titleOfStory": "Pranje zubi",
+      "number": 3,
+      "stories": [
+        {
+          "image": {
+            "path": "images/Pranje_zubi_1.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Za pranje zubića trebamo četkicu, zubnu pastu i čašu.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_0.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Pranje_zubi_2.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Zubnu pastu stavimo na četkicu, a vodu u čašu.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_1.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Pranje_zubi_3.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Prvo četkamo stražnje, a potom prednje zube.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_2.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Pranje_zubi_4.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Pješčani sat pokazuje koliko dugo treba prati zube.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_3.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Pranje_zubi_5.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Usta i četkicu isperemo vodom.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_4.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        },
+        {
+          "image": {
+            "path": "images/Pranje_zubi_6.png",
+            "mime": "image/png",
+            "width": 889,
+            "height": 594
+          },
+          "tip": "",
+          "text": "Ne zaboravite, važno je redovito prati zube.",
+          "audioFile": [
+            {
+              "path": "audios/pranje_zubi_5.mp3",
+              "mime": "audio/mpeg3",
+              "copyright": { "license": "U" }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "progressText": "Stranica @card od ukupno @total",
+  "next": "Sljedeća",
+  "previous": "Prethodna",
+  "caseSensitive": false,
+  "description": "Galerija edukativnih priča"
+}

@@ -1,0 +1,106 @@
+[
+  {
+    "name": "description",
+    "type": "text",
+    "label": "Opis",
+    "importance": "high"
+  },
+
+  {
+    "name": "cards",
+    "type": "list",
+    "widgets": [
+      {
+        "name": "VerticalTabs",
+        "label": "Dodaj priču"
+      }
+    ],
+    "label": "Priče",
+    "entity": "priča",
+    "importance": "high",
+    "min": 1,
+    "defaultNum": 1,
+    "field": {
+      "name": "card",
+      "type": "group",
+      "label": "Priča",
+      "importance": "high",
+      "fields": [
+        {
+          "name": "titleOfStory",
+          "type": "text",
+          "label": "Naslov priče",
+          "importance": "high"
+        },
+        {
+          "name": "stories",
+          "type": "list",
+          "widgets": [
+            {
+              "name": "VerticalTabs",
+              "label": "Dodaj stranicu"
+            }
+          ],
+          "label": "Stranice priče",
+          "entity": "stranica",
+          "importance": "high",
+          "min": 1,
+          "defaultNum": 1,
+          "field": {
+            "name": "story",
+            "type": "group",
+            "label": "Stranica",
+            "importance": "high",
+            "fields": [
+              {
+                "name": "text",
+                "type": "text",
+                "label": "Tekst priče",
+                "importance": "high",
+                "optional": true
+              },
+              {
+                "name": "image",
+                "type": "image",
+                "label": "Slika",
+                "importance": "high",
+                "optional": true
+              },
+              {
+                "name": "audioFile",
+                "type": "audio",
+                "label": "Zvuk stranice priče",
+                "optional": true
+              }
+            ]
+          }
+        }
+      ]
+    }
+  },
+  {
+    "label": "Tekst napretka",
+    "name": "progressText",
+    "type": "text",
+    "default": "Stranica @card od ukupno @total",
+    "importance": "low",
+    "description": "Tekst napretka, koliko smo stranica prolistali.",
+    "common": true
+  },
+  {
+    "label": "Tekst za gumb sljedeća",
+    "name": "next",
+    "type": "text",
+    "default": "Sljedeća",
+    "importance": "low",
+    "common": true
+  },
+  {
+    "label": "Tekst za gumb prethodna",
+    "name": "previous",
+    "type": "text",
+    "default": "Prethodna",
+    "importance": "low",
+    "common": true
+  }
+]
